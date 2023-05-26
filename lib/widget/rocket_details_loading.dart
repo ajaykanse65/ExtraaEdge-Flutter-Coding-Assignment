@@ -7,14 +7,20 @@ class RocketDetailsLoading extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Column(
-      children: [
-        LoadingScreen(margin: 8, height: 350, width: MediaQuery.of(context).size.width,),
-        LoadingScreen(margin: 8, height: 80, width: MediaQuery.of(context).size.width,),
-        LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
-        LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
-        LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
-      ],
+    return  SingleChildScrollView(
+      child: Column(
+        children: [
+          LoadingScreen(margin: 8, height: 350, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 80, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          LoadingScreen(margin: 8, height: 30, width: MediaQuery.of(context).size.width,),
+          
+        ],
+      ),
     );
   }
 }
