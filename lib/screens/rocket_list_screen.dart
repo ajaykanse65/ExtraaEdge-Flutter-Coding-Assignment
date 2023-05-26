@@ -13,7 +13,7 @@ class RocketListScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text('SpaceX Rockets'),
+        title: const Text('SpaceX Rockets',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 20),),
       ),
       body: Consumer(
         builder: (context, watch, _) {

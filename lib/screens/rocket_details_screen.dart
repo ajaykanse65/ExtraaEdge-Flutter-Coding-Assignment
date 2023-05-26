@@ -17,7 +17,7 @@ class RocketDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(rocketName,style: const TextStyle(color: Colors.black, fontSize: 20,fontWeight: FontWeight.bold),),
+        title: Text(rocketName,style: const TextStyle(color: Colors.white, fontSize: 20,fontWeight: FontWeight.bold),),
       ),
       body: Consumer(
         builder: (context, WidgetRef ref, _) {
@@ -81,6 +81,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                 const SizedBox(height: 5,),
                                 Text(rocket.description,style: const TextStyle(color: Colors.black,fontSize: 16,letterSpacing: 0.4),),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -91,6 +92,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   ],
                                 ),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -101,6 +103,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   ],
                                 ),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -111,6 +114,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   ],
                                 ),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -137,6 +141,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   ],
                                 ),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -146,6 +151,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   ],
                                 ),
                                 const Divider(thickness: 1,),
+                                const SizedBox(height: 10,),
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
