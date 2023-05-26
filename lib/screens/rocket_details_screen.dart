@@ -98,7 +98,7 @@ class RocketDetailsScreen extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     const Text('Cost per launch',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
-                                    Text(rocket.costPerLaunch.toString(), style: const TextStyle(fontSize: 18,color: Colors.black,letterSpacing: 0.4),
+                                    Text('${rocket.costPerLaunch.toString()} ₹', style: const TextStyle(fontSize: 18,color: Colors.black,letterSpacing: 0.4),
                                     )
                                   ],
                                 ),
